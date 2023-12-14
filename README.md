@@ -1,1 +1,1 @@
-React web app personal portfolio. built with vite. 'npm install' 'npm run dev'
+React web app personal portfolio. built with vite. `npm install` `npm run dev`
