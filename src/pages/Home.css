@@ -1,0 +1,223 @@
+.slider{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    margin-left: 50%;
+    margin-top: -20%;
+    margin-bottom: 300px;
+    
+  }
+.top h1{
+    font-family: "Inter";
+    font-weight: 100;
+    font-kerning: 4rem;
+    margin-left: 10%;
+    color: white;
+    font-variant-ligatures: additional-ligatures;
+    font-size: 60px;
+    margin-top: 250px;
+    
+  }
+  .top h2{
+    font-family: "Inter";
+    font-weight: 100;
+    font-kerning: 4px;
+    margin-left: 10%;
+    color: white;
+    font-variant-ligatures: additional-ligatures;
+    font-size: 55px;
+    
+  }
+.container2 h2{
+    font-family: "Inter";
+    font-weight: 100;
+    font-style: thin;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: whitesmoke;
+    font-size: xx-large;
+  }
+  .container3 h2{
+    font-family: "Inter";
+    font-weight: 100;
+    font-style: thin;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: whitesmoke;
+    font-size: xx-large;
+  }
+.top h3{
+    font-family: "Inter";
+    font-weight: 100;
+    font-style: thin;
+    margin-top: 20px;
+    color: whitesmoke;
+    margin-left: 9.5%;
+  }
+  .container2 h3{
+    font-family: "Inter";
+    font-weight: 100;
+    font-style: thin;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: white;
+   
+   
+
+  }
+  .wrapper{
+    border: 1px solid white;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 25px;
+  }
+  .container3 h3{
+    font-family: "Inter";
+    font-weight: 100;
+    font-style: thin;
+    font-size: x-large;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: whitesmoke;
+  }
+.top{
+    background-color: blue; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom, blue, black);
+    padding-top: 70px;
+    z-index: 9;
+    margin: 0;
+    padding-bottom: 70px;
+
+  }
+  .top-background{
+    display: flex;
+    z-index: 0;
+  }
+  .container2{
+    background-color: blue; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to top , blue, black);
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 100px;
+  }
+  
+  .container3{
+    background-color: blue; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom , blue, black);
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 140px;
+  }
+  .grid1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-left: auto;
+    padding-right: auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+   
+  }
+
+  .grid1-items{
+    padding: 10px;
+    text-align: center;
+    height: 80px
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 50px;
+  }
+
+  .grid-items{
+    padding: 20px;
+    text-align: center;
+    height: 450px
+  }
+ 
+  .grid-items-pic{
+    padding: 20px;
+    height: 330px;
+    width: 330px;
+    transition: all 1s;
+    opacity: 80%;
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  }
+  .grid-items-pic:hover{
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+    transition: all 1s;
+    border: 2px solid yellow;
+    filter: blur(3px);
+  }
+  
+  p{
+    color: white;
+    font-family: "Inter";
+    font-weight: 100;
+  }
+.hidden{
+    opacity: 0;
+    transition: all 1s;
+  }
+  .animateHidden{
+    opacity: 1;
+  }
+  .show{
+    opacity: 1;
+  }
+  .bg-top{
+    height: 100%;
+  max-width: auto;
+  margin: 0;
+  background-color: black;
+  position:absolute;
+  top:70px;
+  right:0px;
+  bottom: -400px;
+  bottom: 700px;
+  left:0px;
+  z-index: -1;
+  }
+.icon{
+  margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    font-size: 200px;
+    color: aliceblue;
+    padding-top: 200px;
+}
+.icon1{}
+.icon1:hover {
+  color: rgb(123, 122, 122);
+}

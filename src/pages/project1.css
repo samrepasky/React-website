@@ -1,0 +1,85 @@
+.icon-back{
+  height: 35px;
+  width: 35px;
+  margin-left: 20px;
+  margin-top: 20px;
+  z-index: 100;
+  color: black;
+}
+.Project1 h1{
+  color:black;
+  padding-bottom: 30px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+.Project1 p{
+  color:black;
+    text-align: left;
+    padding: 10px;
+    margin-left: 40%;
+    margin-right: 70px;
+    margin-top: -10px;
+}
+.Project5 h1{
+  color:black;
+}
+.Project5 p{
+  color:black;
+    text-align: center;
+    padding: 10px;
+}
+.icon-top{
+  margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 70px;
+    color:red;
+    padding-top: 30px;
+}
+.Project1 h2{
+  margin-left: 9%;
+  text-align: left;
+    color: black;
+    padding-left: 75px;
+  
+}
+.section{
+  padding-bottom: 120px;
+}
+.Project1 img{
+  width: 600px;
+  height: auto;
+  margin-left: 50%;
+  padding-bottom: 50px;
+  border-radius: 1px;
+}
+.button1{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button1:hover {
+  background-color: white;
+  color: #4CAF50;
+  border: 2px solid #4CAF50;
+}
